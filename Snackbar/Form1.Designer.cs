@@ -48,9 +48,6 @@
             this.lbSnack2Amount = new System.Windows.Forms.Label();
             this.lbSnack1Amount = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tbSnack1 = new System.Windows.Forms.TextBox();
-            this.tbSnack2 = new System.Windows.Forms.TextBox();
-            this.tbSnack3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numberSnack1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numberSnack2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numberSnack3)).BeginInit();
@@ -73,7 +70,7 @@
             this.lbSnack1Info.AutoSize = true;
             this.lbSnack1Info.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lbSnack1Info.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSnack1Info.Location = new System.Drawing.Point(148, 29);
+            this.lbSnack1Info.Location = new System.Drawing.Point(71, 29);
             this.lbSnack1Info.Name = "lbSnack1Info";
             this.lbSnack1Info.Size = new System.Drawing.Size(99, 21);
             this.lbSnack1Info.TabIndex = 1;
@@ -84,7 +81,7 @@
             this.lbSnack2Info.AutoSize = true;
             this.lbSnack2Info.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lbSnack2Info.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSnack2Info.Location = new System.Drawing.Point(148, 68);
+            this.lbSnack2Info.Location = new System.Drawing.Point(71, 68);
             this.lbSnack2Info.Name = "lbSnack2Info";
             this.lbSnack2Info.Size = new System.Drawing.Size(95, 21);
             this.lbSnack2Info.TabIndex = 2;
@@ -95,7 +92,7 @@
             this.lbSnack3Info.AutoSize = true;
             this.lbSnack3Info.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lbSnack3Info.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSnack3Info.Location = new System.Drawing.Point(148, 108);
+            this.lbSnack3Info.Location = new System.Drawing.Point(71, 108);
             this.lbSnack3Info.Name = "lbSnack3Info";
             this.lbSnack3Info.Size = new System.Drawing.Size(95, 21);
             this.lbSnack3Info.TabIndex = 3;
@@ -183,9 +180,6 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.groupBox1.Controls.Add(this.tbSnack3);
-            this.groupBox1.Controls.Add(this.tbSnack2);
-            this.groupBox1.Controls.Add(this.tbSnack1);
             this.groupBox1.Controls.Add(this.numberSnack1);
             this.groupBox1.Controls.Add(this.lbSnack1Info);
             this.groupBox1.Controls.Add(this.lbSnack2Info);
@@ -265,27 +259,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "-------------------------  +";
             // 
-            // tbSnack1
-            // 
-            this.tbSnack1.Location = new System.Drawing.Point(71, 29);
-            this.tbSnack1.Name = "tbSnack1";
-            this.tbSnack1.Size = new System.Drawing.Size(53, 23);
-            this.tbSnack1.TabIndex = 15;
-            // 
-            // tbSnack2
-            // 
-            this.tbSnack2.Location = new System.Drawing.Point(71, 66);
-            this.tbSnack2.Name = "tbSnack2";
-            this.tbSnack2.Size = new System.Drawing.Size(53, 23);
-            this.tbSnack2.TabIndex = 16;
-            // 
-            // tbSnack3
-            // 
-            this.tbSnack3.Location = new System.Drawing.Point(71, 106);
-            this.tbSnack3.Name = "tbSnack3";
-            this.tbSnack3.Size = new System.Drawing.Size(53, 23);
-            this.tbSnack3.TabIndex = 17;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -333,8 +306,5 @@
         private System.Windows.Forms.Label lbSnack2Amount;
         private System.Windows.Forms.Label lbSnack1Amount;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbSnack1;
-        private System.Windows.Forms.TextBox tbSnack3;
-        private System.Windows.Forms.TextBox tbSnack2;
     }
 }
