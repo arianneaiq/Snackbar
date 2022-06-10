@@ -62,10 +62,5 @@ namespace Snackbar
            return m *= GetSellingPrice();
         }
         
-
-
-      
-        
-
     }
 }
