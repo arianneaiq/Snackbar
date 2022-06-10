@@ -32,9 +32,9 @@
             this.lbSnack1Info = new System.Windows.Forms.Label();
             this.lbSnack2Info = new System.Windows.Forms.Label();
             this.lbSnack3Info = new System.Windows.Forms.Label();
-            this.numberSnack1 = new System.Windows.Forms.NumericUpDown();
-            this.numberSnack2 = new System.Windows.Forms.NumericUpDown();
-            this.numberSnack3 = new System.Windows.Forms.NumericUpDown();
+            this.nSnack1 = new System.Windows.Forms.NumericUpDown();
+            this.nSnack2 = new System.Windows.Forms.NumericUpDown();
+            this.nSnack3 = new System.Windows.Forms.NumericUpDown();
             this.btnAddToShoppingCar = new System.Windows.Forms.Button();
             this.lbSnack1Cal = new System.Windows.Forms.Label();
             this.lbSnack2Cal = new System.Windows.Forms.Label();
@@ -48,9 +48,9 @@
             this.lbSnack2Amount = new System.Windows.Forms.Label();
             this.lbSnack1Amount = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack3)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -98,26 +98,26 @@
             this.lbSnack3Info.TabIndex = 3;
             this.lbSnack3Info.Text = "Snack 3 Info";
             // 
-            // numberSnack1
+            // nSnack1
             // 
-            this.numberSnack1.Location = new System.Drawing.Point(13, 29);
-            this.numberSnack1.Name = "numberSnack1";
-            this.numberSnack1.Size = new System.Drawing.Size(52, 23);
-            this.numberSnack1.TabIndex = 4;
+            this.nSnack1.Location = new System.Drawing.Point(13, 29);
+            this.nSnack1.Name = "nSnack1";
+            this.nSnack1.Size = new System.Drawing.Size(52, 23);
+            this.nSnack1.TabIndex = 4;
             // 
-            // numberSnack2
+            // nSnack2
             // 
-            this.numberSnack2.Location = new System.Drawing.Point(61, 152);
-            this.numberSnack2.Name = "numberSnack2";
-            this.numberSnack2.Size = new System.Drawing.Size(52, 23);
-            this.numberSnack2.TabIndex = 5;
+            this.nSnack2.Location = new System.Drawing.Point(61, 152);
+            this.nSnack2.Name = "nSnack2";
+            this.nSnack2.Size = new System.Drawing.Size(52, 23);
+            this.nSnack2.TabIndex = 5;
             // 
-            // numberSnack3
+            // nSnack3
             // 
-            this.numberSnack3.Location = new System.Drawing.Point(61, 192);
-            this.numberSnack3.Name = "numberSnack3";
-            this.numberSnack3.Size = new System.Drawing.Size(52, 23);
-            this.numberSnack3.TabIndex = 6;
+            this.nSnack3.Location = new System.Drawing.Point(61, 192);
+            this.nSnack3.Name = "nSnack3";
+            this.nSnack3.Size = new System.Drawing.Size(52, 23);
+            this.nSnack3.TabIndex = 6;
             // 
             // btnAddToShoppingCar
             // 
@@ -180,7 +180,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.groupBox1.Controls.Add(this.numberSnack1);
+            this.groupBox1.Controls.Add(this.nSnack1);
             this.groupBox1.Controls.Add(this.lbSnack1Info);
             this.groupBox1.Controls.Add(this.lbSnack2Info);
             this.groupBox1.Controls.Add(this.lbSnack3Info);
@@ -266,16 +266,16 @@
             this.ClientSize = new System.Drawing.Size(800, 501);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.btnAddToShoppingCar);
-            this.Controls.Add(this.numberSnack3);
-            this.Controls.Add(this.numberSnack2);
+            this.Controls.Add(this.nSnack3);
+            this.Controls.Add(this.nSnack2);
             this.Controls.Add(this.btnSnackInfo);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
             this.Text = "MacSnacks";
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberSnack3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSnack3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -290,9 +290,9 @@
         private System.Windows.Forms.Label lbSnack1Info;
         private System.Windows.Forms.Label lbSnack2Info;
         private System.Windows.Forms.Label lbSnack3Info;
-        private System.Windows.Forms.NumericUpDown numberSnack1;
-        private System.Windows.Forms.NumericUpDown numberSnack2;
-        private System.Windows.Forms.NumericUpDown numberSnack3;
+        private System.Windows.Forms.NumericUpDown nSnack1;
+        private System.Windows.Forms.NumericUpDown nSnack2;
+        private System.Windows.Forms.NumericUpDown nSnack3;
         private System.Windows.Forms.Button btnAddToShoppingCar;
         private System.Windows.Forms.Label lbSnack1Cal;
         private System.Windows.Forms.Label lbSnack2Cal;
