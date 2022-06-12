@@ -10,7 +10,7 @@ namespace Snackbar
         private double costPrice;
         private bool isVegetarian;
         private int numberInStock;
-
+        
         //Constructor
         public Snack (string aName, double aCostPrice, bool aIsVegetarian, int aNumberInStock )
         {
@@ -19,23 +19,22 @@ namespace Snackbar
             isVegetarian = aIsVegetarian;
             numberInStock = aNumberInStock;
         }
-        
+      
        public string Name
         {
             get { return name; }
         }
 
-        public int GetNumberInStock()
+        public void SetCostPrice(double CostPrice)
         {
-            return numberInStock;
+            costPrice = CostPrice;
         }
-
+        
         public double GetSellingPrice()
         {
             return costPrice * 1.6;
         }
-        
-       
+
         public String Vegetarian()
         {
             if (isVegetarian == true)
@@ -45,6 +44,16 @@ namespace Snackbar
             {
                 return "not Vegetarian";
             }
+        }
+
+        public int GetNumberInStock()
+        {
+            return numberInStock;
+        }
+
+        public void AddSnack (int snack)
+        {
+            numberInStock += snack;
         }
         
         public String GetInfo()
@@ -60,6 +69,16 @@ namespace Snackbar
         public double CalculateSnack (double m)
         {
            return m *= GetSellingPrice();
+        }
+
+        public string AddSnackMessage()
+        {
+            return $"Hey Snackbar owner, please add some more {name}. There is only {GetNumberInStock()} {name} in stock ";
+        }
+
+        public string notEnoughSnack ()
+        {
+            return $"Sorry, there's not enough {name} in stock. You can only buy {GetNumberInStock()} {name}.";
         }
         
     }
